@@ -67,6 +67,5 @@ public abstract class Reporter extends AbstractTestNGCucumberTests {
 	@AfterSuite
 	public void stopReport() {
 		extent.flush();
-
 	}
 }
